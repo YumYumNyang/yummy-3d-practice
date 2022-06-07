@@ -1,17 +1,14 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# Golf Ball 3D
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+## capture
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+![capture](./static/capture.PNG)
 
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+-   Canvas
+-   Three.js
+-   Three pointlight
+-   Window resize event => updates size, camera, renderer
+-   Camera
+-   Renderer
+-   Mouse animation
+-   Describe golf ball texture using normal map
