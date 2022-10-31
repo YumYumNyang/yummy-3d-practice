@@ -1,6 +1,7 @@
 import "./style.css";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { FirstPersonControls } from "three/examples/jsm/controls/FirstPersonControls.js";
 
 /**
  * Cursor
@@ -58,10 +59,10 @@ camera.lookAt(mesh.position);
 scene.add(camera);
 
 // Controls
-const controls = new OrbitControls(camera, canvas);
+const controls = new FirstPersonControls(camera, canvas);
 // controls.target.y = 2;
 
-controls.enableDamping = true;
+// controls.enableDamping = true;
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({
