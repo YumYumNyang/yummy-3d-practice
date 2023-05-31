@@ -1,4 +1,4 @@
-# yummy-3D
+# yummy-3D Practice Repo
 
 3d visualization
 
